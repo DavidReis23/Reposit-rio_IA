@@ -16,24 +16,24 @@ Foram realizados experimentos variando os hiperparâmetros:
 
 ### Configurações testadas
 
-| Experimento | eta | sigma |
-|------------|------|--------|
-| A | 0.1 | 1 |
-| B | 0.5 | 3 |
-| C | 0.8 | 5 |
-| D | 0.05 | 10 |
+| Experimento | eta  | sigma |
+| ----------- | ---- | ----- |
+| A           | 0.1  | 1     |
+| B           | 0.5  | 3     |
+| C           | 0.8  | 5     |
+| D           | 0.05 | 10    |
 
 ### Resultados obtidos (Iris Dataset)
 
 Rectangular → QE: 0.3285 | TE: 0.0067  
-Hexagonal → QE: 0.3467 | TE: 0.0533  
+Hexagonal → QE: 0.3467 | TE: 0.0533
 
 Experimentos com variação de eta e sigma:
 
-- eta=0.1 | sigma=1 → QE=0.3250 | TE=0.6000  
-- eta=0.5 | sigma=3 → QE=0.3467 | TE=0.0533  
-- eta=0.8 | sigma=5 → QE=0.4795 | TE=0.0733  
-- eta=0.05 | sigma=10 → QE=0.7967 | TE=0.1600  
+- eta=0.1 | sigma=1 → QE=0.3250 | TE=0.6000
+- eta=0.5 | sigma=3 → QE=0.3467 | TE=0.0533
+- eta=0.8 | sigma=5 → QE=0.4795 | TE=0.0733
+- eta=0.05 | sigma=10 → QE=0.7967 | TE=0.1600
 
 ### Análise
 
@@ -51,7 +51,7 @@ Além do dataset Iris, foi utilizado o dataset **Wine**, que possui maior dimens
 
 ### Resultado - Wine Dataset
 
-Wine Dataset → QE: 1.6916 | TE: 0.0337  
+Wine Dataset → QE: 1.6916 | TE: 0.0337
 
 ### Análise
 
